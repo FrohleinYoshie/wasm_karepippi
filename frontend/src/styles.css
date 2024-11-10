@@ -1,0 +1,67 @@
+body {
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .input-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #5555ff;
+  }
+  
+  .input-container {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: #666;
+  }
+  
+  input, textarea {
+    width: 95%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  input:focus, textarea:focus {
+    outline: none;
+    border-color: #5555ff;
+    box-shadow: 0 0 0 2px rgba(85, 85, 255, 0.2);
+  }
+  
+  .display-text {
+    margin-top: 2rem;
+  }
+  
+  .display-text h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #5555ff;
+  }
+  
+  .display-text p {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid #eee;
+  }
+  
+  /* アニメーションは省略 */
